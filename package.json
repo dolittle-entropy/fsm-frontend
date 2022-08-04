@@ -1,0 +1,40 @@
+{
+  "name": "fsm-frontend",
+  "version": "1.0.0",
+  "description": "An experiment to play with TypeScript + XState + React + MaterialUI",
+  "main": "index.js",
+  "repository": "https://github.com/dolittle-entropy/fsm-frontend.git",
+  "author": "Dolittle",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode=development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@types/node": "^18.6.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/parser": "^5.32.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-header": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.9.3",
+    "@xstate/react": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xstate": "^4.32.1"
+  }
+}
